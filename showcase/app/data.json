@@ -1,0 +1,118 @@
+{
+  "prenom": "arnaud",
+  "nom": "garnier",
+  "age": "20",
+  "pays" : "france",
+  "adresse": "227 avenue de peygros",
+  "codepost": "06530",
+  "ville": "peymeinade",
+  "telefixe": "04.93.09.90.61",
+  "telemobile": "06.52.37.76.76",
+  "courriel": "arnaudgarnier06@gmail.com",
+  "parcours": [
+    {
+      "annee": "2014-2015",
+      "ecole": "polytech nice-sophia",
+      "diplome": "-",
+      "type": "sciences informatiques",
+      "mention": ""
+    },
+    {
+      "annee": "2012-2014",
+      "ecole": "polytech nice-sophia",
+      "diplome": "validation cip",
+      "type": "",
+      "mention": ""
+    },
+    {
+      "annee": "2009-2012",
+      "ecole": "lycée amiral de grasse",
+      "diplome": "baccalauréat s"
+    }
+  ],
+  "exppro": [
+    {
+      "annee": "2008-2009",
+      "type": "stage",
+      "entreprise": "charabot",
+      "lieu": "grasse"
+    }
+  ],
+  "competences": [
+    {
+      "type": "informatic",
+      "what": [
+        {
+          "name": "python"
+        },
+        {
+          "name": "java"
+        },
+        {
+          "name": "html/css"
+        }
+        ]
+      },
+    {
+      "type": "language",
+      "what": [
+        {
+          "type": "english",
+          "level": "b2"
+        },
+        {
+          "type": "italian",
+          "level": "c1"
+        },
+        {
+          "type": "chinese",
+          "level": "novice"
+        }
+      ]
+    },
+    {
+      "type" : "business knowledge",
+      "what" : [
+        {
+          "type" : "communication"
+        },
+        {
+          "type" : "management"
+        },
+        {
+          "type" : "marketing"
+        }
+      ]
+    }
+  ],
+  "projets": [
+    {
+      "annee": "2015",
+      "what": "Participation au projet DeViNT"
+    },
+    {
+      "annee": "2014-2015",
+      "what": "Organisateur d'un don du sang avec l'EFS",
+      "where": "sur le campus SophiaTech"
+    },
+    {
+      "annee": "2013-2014",
+      "what": "Création d'un site web de quizz"
+    }
+  ],
+  "pois": [
+    {
+    "what": "informatic"
+    },
+    {
+      "what": "cinema"
+    },
+    {
+      "what": "photography"
+    },
+    {
+      "what" : "travel"
+    }],
+  "objectif": " to be part of a team, to share my knowledge and provide solutions"
+}
+

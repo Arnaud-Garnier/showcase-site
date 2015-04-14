@@ -1,0 +1,125 @@
+<!-- Work -->
+<div class="wrapper style1">
+  <article id="work">
+    <header>
+      <br />
+      <h1>Curriculum Vitae</h1>
+      </header>
+    </article>
+  </div>
+<div class ="wrapper style2">
+  <article>
+    <h2>Formation</h2>
+      <span class="icon amazing fa-graduation-cap"></span>
+      <br />
+      <table>
+        <tr><td><strong>Year</strong></td><td><strong>School</strong></td><td><strong>Degree</strong></td></tr>
+          <tr class = "titler" ng-repeat = "a in datas.parcours"><td>{{a.annee}}</td> <td>{{a.ecole}}</td><td>{{a.diplome}}</td></tr>
+      </table>
+    <div class="container">
+</div>
+    </article>
+  </div>
+  <div class = "wrapper style2">
+    <article>
+      <h2>Skills</h2>
+      <span class = "icon amazing fa-wrench"></span>
+      <br />
+      <div class="row">
+        <div class="4u">
+          <section class="box style1">
+            <span class="icon featured fa-keyboard-o"></span>
+            <h3 class = "titler">{{datas.competences.0.type}}</h3>
+            <ul>
+              <li class = "listskill" ng-repeat = "b in datas.competences.0.what">{{b.name}}</li>
+            </ul>
+          </section>
+        </div>
+        <div class="4u">
+          <section class="box style1">
+            <span class="icon featured fa-language"></span>
+            <h3 class = "titler">{{datas.competences.1.type}}</h3>
+            <ul>
+              <li class = "listskill" ng-repeat = "c in datas.competences.1.what">{{c.type}} ({{c.level}})</li>
+            </ul>
+          </section>
+        </div>
+        <div class="4u">
+          <section class="box style1">
+            <span class="icon featured fa-line-chart "></span>
+            <h3 class = "titler">{{datas.competences.2.type}}</h3>
+            <ul>
+              <li class = "listskill" ng-repeat = "c in datas.competences.2.what">{{c.type}}</li>
+            </ul>
+          </section>
+        </div>
+        </div>
+    </article>
+    </div>
+<!-- Career -->
+<div class ="wrapper style2">
+<h2>Career</h2>
+<span class="icon amazing fa-suitcase"></span>
+<br /><br />
+<table>
+  <tr><td><strong>Year</strong></td><td><strong>Company</strong></td><td><strong>Type</strong></td></tr>
+  <tr class = "titler" ng-repeat = "a in datas.exppro"><td>{{a.annee}}</td> <td>{{a.entreprise}} {{a.lieu}}</td><td>{{a.type}}</td></tr>
+</table>
+</div>
+<!-- Projects -->
+<div class="wrapper style3">
+  <article id="portfolio">
+    <header>
+      <h2>Projects</h2>
+
+      <h4><i>Click on the name of the project to see more.</i></h4>
+      <span class = "icon amazing fa-cloud"></span>
+      <br />
+    </header>
+    <div class="container">
+      <div class="row">
+        <div class="4u">
+          <article class="box style2">
+            <a class="image featured"><img src="bower_components/bootstrap/dist/images/pic01.jpg" alt="" /></a>
+            <h3><a href="http://users.polytech.unice.fr/~strombon/DEVINT2015/Projet3G3/">{{datas.projets.0.what}}</a></h3>
+            <p>{{datas.projets.0.where}}<br />{{datas.projets.0.annee}}</p>
+          </article>
+          <br />
+        </div>
+        <div class="4u">
+          <article class="box style2">
+            <a class="image featured"><img src="bower_components/bootstrap/dist/images/pic02.jpg" alt="" /></a>
+            <h3><a href = "http://www.dondusang.net/rewrite/site/37/etablissement-francais-du-sang.htm?idRubrique=756">{{datas.projets.1.what}}</a></h3>
+            <p>{{datas.projets.1.where}}<br />{{datas.projets.1.annee}}</p>
+          </article>
+        </div>
+        <div class="4u">
+          <article class="box style2">
+            <a class="image featured"><img src="bower_components/bootstrap/dist/images/pic03.jpg" alt="" /></a>
+            <h3><a href="http://quickzz.olympe.in/">{{datas.projets.2.what}}</a></h3>
+            <p>{{datas.projets.2.where}}<br />{{datas.projets.2.annee}}</p>
+          </article>
+        </div>
+      </div>
+      </div>
+    <div class ="wrapper style3">
+      <h2>Interest</h2>
+      <span class="icon amazing fa-comments-o"></span>
+      <br />
+        <pre ng-repeat="d in datas.pois" class = "titler"><strong>{{d.what}}</strong></pre>
+    </div>
+  </article>
+  <hr/>
+  <footer>
+    <p>Objective : {{datas.objectif}}.</p>
+  </footer>
+  <hr />
+</div>
+<div class="wrapper style4">
+  <footer>
+    <ul id="copyright">
+      <li>&copy; All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+    </ul>
+  </footer>
+</div>
+</div>
